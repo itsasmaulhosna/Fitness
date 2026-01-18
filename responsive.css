@@ -1,0 +1,9 @@
+/* small */
+@media screen and (max-width: 576px) {
+  ul li {
+    display: none;
+  }
+  #menu {
+    display: inline;
+  }
+}
