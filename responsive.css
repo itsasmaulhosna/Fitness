@@ -5,5 +5,26 @@
   }
   #menu {
     display: inline;
+    color: white;
+  }
+  /* banner */
+  .banner {
+    flex-direction: column;
+  }
+  .banner-title {
+    font-size: 3rem;
+  }
+  .banner-text {
+    font-size: 1rem;
+  }
+}
+
+/* tab */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .banner-title {
+    font-size: 3rem;
+  }
+  .banner-text {
+    font-size: 1rem;
   }
 }
