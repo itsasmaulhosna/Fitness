@@ -29,13 +29,17 @@ section {
   font-weight: 900;
   color: white;
   margin-bottom: 20px;
+  padding-top: 20px;
+}
+.img2 {
+  grid-column: span 2;
 }
 .text {
   font-size: 1rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 20px;
   text-align: center;
-  padding-bottom: 50px;
 }
 /* body {
   background-color: black;
@@ -178,4 +182,51 @@ ul li {
 }
 .img img {
   border-radius: 50%;
+}
+/* tranning & Excersise */
+.excersise-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+}
+.tranning-section {
+  background-color: black;
+}
+.img2 {
+  grid-column: span 2;
+  background-color: #ff0000;
+  mix-blend-mode: multiply;
+}
+.img4 {
+  grid-column: span 2;
+}
+.excersise-container img {
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+}
+.text2 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 20px;
+}
+.img1 {
+  background-color: #1c8774;
+  mix-blend-mode: multiply;
+}
+.img3 {
+  background-color: #cccccc;
+}
+.img4 {
+  background-color: #bbbbbb;
+}
+.img5 {
+  background-color: #42ff00;
+}
+.img5 {
+  background-color: #0047ff;
 }

@@ -20,8 +20,20 @@
   .title {
     font-size: 2rem;
   }
-  .change-img {
+  .change-img,
+  .excersise-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .excersise-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .img2,
+  .img4 {
+    grid-column: span 1;
+  }
+  .img5,
+  .img6 {
+    display: none;
   }
 }
 
