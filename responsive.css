@@ -17,6 +17,12 @@
   .banner-text {
     font-size: 1rem;
   }
+  .title {
+    font-size: 2rem;
+  }
+  .change-img {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 /* tab */
@@ -26,5 +32,12 @@
   }
   .banner-text {
     font-size: 1rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .change-img {
+    grid-template-columns: repeat(2, 1fr);
+    dosplay: grid;
   }
 }
