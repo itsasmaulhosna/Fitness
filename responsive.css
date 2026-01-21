@@ -1,15 +1,30 @@
 /* small */
 @media screen and (max-width: 576px) {
+  section {
+    margin-top: 0;
+  }
+  .title {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 7px;
+    padding-top: 8px;
+  }
   ul li {
     display: none;
+  }
+  nav {
+    padding: 0;
   }
   #menu {
     display: inline;
     color: white;
   }
   /* banner */
-  .banner {
+  .banner,
+  .run-container {
     flex-direction: column;
+    gap: 50px;
+    padding-bottom: 0;
   }
   .banner-title {
     font-size: 3rem;
@@ -17,8 +32,12 @@
   .banner-text {
     font-size: 1rem;
   }
-  .title {
-    font-size: 2rem;
+  .banner-content {
+    padding-left: 0;
+    text-align: center;
+  }
+  .change {
+    padding: 10px;
   }
   .change-img,
   .excersise-container {
@@ -26,6 +45,19 @@
   }
   .excersise-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .run-img {
+    width: 100%;
+    padding-top: 0;
+    padding-right: 0;
+  }
+  .run-content {
+    text-align: center;
+    padding-left: 5px;
+  }
+  .tranning-content {
+    text-align: center;
+    padding-left: 0;
   }
   .img2,
   .img4 {
@@ -39,6 +71,19 @@
 
 /* tab */
 @media screen and (min-width: 577px) and (max-width: 992px) {
+  section {
+    margin-top: 30px;
+  }
+  nav {
+    padding: 0;
+  }
+  .banner {
+    padding-bottom: 0;
+  }
+  .banner-content {
+    padding-left: 0;
+    text-align: center;
+  }
   .banner-title {
     font-size: 3rem;
   }
@@ -48,8 +93,26 @@
   .title {
     font-size: 2rem;
   }
+  .change {
+    margin-bottom: 0;
+    padding: 50px 5px 0;
+  }
   .change-img {
     grid-template-columns: repeat(2, 1fr);
     dosplay: grid;
+  }
+  .run-img {
+    width: 100%;
+    padding-left: 5px;
+  }
+  .run-content {
+    padding-left: 5px;
+    padding-top: 0;
+    text-align: center;
+    /* margin: 0 auto; */
+  }
+  .tranning-content {
+    text-align: center;
+    padding-left: 0;
   }
 }
