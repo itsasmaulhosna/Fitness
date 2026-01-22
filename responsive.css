@@ -40,7 +40,8 @@
     padding: 10px;
   }
   .change-img,
-  .excersise-container {
+  .excersise-container,
+  .team-container {
     grid-template-columns: repeat(1, 1fr);
   }
   .excersise-container {
