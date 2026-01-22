@@ -273,3 +273,33 @@ ul li {
 .img5 {
   background-color: #0047ff;
 }
+/* team */
+.team-title {
+  text-align: center;
+}
+.team-container {
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  max-width: 1200px;
+}
+.team-container img {
+  width: 100%;
+  height: 100%;
+}
+.team-img {
+  position: relative;
+}
+.name {
+  position: absolute;
+  top: 75%;
+  padding-left: 10px;
+  color: white;
+}
+.name h4 {
+  font-size: 1.3rem;
+  font-weight: 900;
+}
