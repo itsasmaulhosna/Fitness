@@ -41,7 +41,8 @@
   }
   .change-img,
   .excersise-container,
-  .team-container {
+  .team-container,
+  .footer-container {
     grid-template-columns: repeat(1, 1fr);
   }
   .excersise-container {
@@ -67,6 +68,15 @@
   .img5,
   .img6 {
     display: none;
+  }
+  .column1,
+  .column2,
+  .column3 {
+    text-align: center;
+    padding-left: 0;
+  }
+  .line {
+    width: 200px;
   }
 }
 
@@ -115,5 +125,8 @@
   .tranning-content {
     text-align: center;
     padding-left: 0;
+  }
+  .line {
+    width: 400px;
   }
 }

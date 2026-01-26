@@ -316,3 +316,54 @@ ul li {
 .team {
   padding-bottom: 50px;
 }
+/* footer */
+.footer {
+  background: rgba(255, 255, 255, 0.1);
+  padding-bottom: 50px;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.color {
+  color: red;
+  font-size: 3rem;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.footer-text {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.get {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.list p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 10px;
+}
+.column1,
+.column2,
+.column3 {
+  padding-left: 90px;
+  padding-top: 30px;
+}
+.text-2 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 20px;
+  text-align: center;
+}
+.line {
+  display: block;
+  width: 950px; /* center line width */
+  height: 1px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 30px auto 15px; /* center + gap */
+}
